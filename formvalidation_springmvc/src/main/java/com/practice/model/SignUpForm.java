@@ -18,7 +18,7 @@ public class SignUpForm {
 	@Email(message = "Invalid email! Please enter valid email")
 	private String email;
 
-	@NotNull(message = "Email should not empty")
+	@NotNull(message = "username should not empty")
 	private String userName;
 
 	@Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "only 5 chars/digits ")
